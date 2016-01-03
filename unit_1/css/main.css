@@ -1,0 +1,58 @@
+body {
+	background-color: #29F3FF;
+	text-align: justify;
+}
+
+h1, {
+	font-family: Arial, sans-serif;
+}
+h1 {
+	font-size: 70px;
+}
+h1
+{
+	position: relative;
+	text-align: center;
+}
+h1
+{
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+p, a, li {
+	font-family: "Courier New";
+}
+
+li {
+text-decoration: underline;
+	font-size: 30px;
+}
+
+#bullet1
+{
+	font-size: 30px;
+}
+#bullet2
+{
+	font-size: 30px;
+}
+
+.important
+{
+	font-weight: normal;
+}
+
+a
+{
+	font-style: italic;
+	text-decoration: none;
+}
+
+img {
+	position: relative;
+	text-transform: center;
+}
