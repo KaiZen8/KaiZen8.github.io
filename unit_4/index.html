@@ -3,17 +3,42 @@
 <head>
 	<title>Kai Waluszewski</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("imgC").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("imgC").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "images/image1.jpg";
+          images[1] = "images/image2.jpg";
+          images[2] = "images/image3.jpg";
+          images[3] = "images/image4.jpg";
+          images[4] = "images/image5.jpg";
+          images[5] = "images/image6.jpg";
+          images[6] = "images/image7.jpg";
+
+      </script>
 </head>
-<body>
+<body onload = "startTimer()">
 
 <h1> Kai Waluszewski </h1>
 
 <img src="images/stones.png" width ="140" height="200" alt="Stones" title="Stones">
 
-<p class="italic"> <b>Be Mindful</b> </p>
+<img id="imgC" src="startpicture.jpg">
 
-<p> This website invites you to explore the benefits of mindfulness in your daily life. <p>
-<p> Have a look at the how you can become more mindful today, and what this can do to your brain. </p>
+<p class="italic"> <b>Be Mindful.</b> </p>
+     
 
 <ul align="left">
 <li>News</li>
