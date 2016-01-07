@@ -1,0 +1,88 @@
+
+
+html, body {
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+h1
+{
+	text-align: center;
+	font-family: "Courier New", sans-serif;
+	font-weight: bold;
+}
+
+body
+{
+font-family: "Noteworthy", sans-serif;
+}
+
+
+{ /* The part that follows allows to keep the footer down////////////////////////////////////////////// */
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+
+/* End of the part that allows to keep the footer down//////////////////////////////////////////////// */
+
+#W, #A, #M, #B, #P
+{
+	margin: auto;
+	background-color: lightblue;
+	border: 2px black solid;
+	margin: 10px;
+	text-align: left;
+	padding: 5px 5px 5px 20px;
+
+	font-weight: bold;
+
+	width: 200px;
+}
+
+#poem
+{
+	font-family: "Papyrus", sans-serif;
+}
+.firstp
+{
+	margin: 2em 0em 0em 0em;
+}
+.p
+{
+	margin: 0px;
+}
+
+
+/*"MINDFULNESS" Section */
+
+.explanation
+{
+	border: 2px white dotted;
+	font-family: "Papyrus", sans-serif;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: white;
+	width: 50em;
+
+	margin-top: 2.5em;
+	margin-bottom: 0em;
+}
+.list
+{
+	font-family: "Papyrus", sans-serif;
+	font-size: 1.2em;
+	color: white;
+}
