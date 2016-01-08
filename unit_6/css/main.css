@@ -26,6 +26,10 @@ font-family: "Noteworthy", sans-serif;
 html, body {
     height: 100%;
 }
+
+a {
+	display: block;
+}
 .wrapper {
     min-height: 100%;
     height: auto !important;
@@ -38,22 +42,40 @@ html, body {
 
 /* End of the part that allows to keep the footer down//////////////////////////////////////////////// */
 
-#W, #A, #M, #B, #P
-{
+a {
 	margin: auto;
-	background-color: lightblue;
+	background-color: #A5C426;
 	border: 2px black solid;
-	margin: 10px;
+	margin: 0px 10px 10px 10px;
 	text-align: left;
+	display: block;
+
+float: left;
 	padding: 5px 5px 5px 20px;
 
 	font-weight: bold;
+	text-decoration: none;
 
-	width: 200px;
+	width: 160px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+a:hover {
+	background-color: #EA2677;
+	font-size: 17px;
 }
 
 #poem
 {
+	margin-top: 15em;
 	font-family: "Papyrus", sans-serif;
 }
 .firstp
@@ -68,17 +90,34 @@ html, body {
 
 /*"MINDFULNESS" Section */
 
-.explanation
+#whatisbody
 {
-	border: 2px white dotted;
+	background-color: #7ABBCC;
+}
+
+#explanation
+{
+float: left;
+
 	font-family: "Papyrus", sans-serif;
 	font-weight: normal;
 	font-size: 1.2em;
-	color: white;
-	width: 50em;
+	color: black;
 
-	margin-top: 2.5em;
-	margin-bottom: 0em;
+	width: 560px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+
+}
+#side_symbol {
+	display: block;
+	width: 30%;
+	float: right;
+	margin: 30px 100px 0 0;
+	position: relative;
+}
+
+
 }
 .list
 {
@@ -86,3 +125,21 @@ html, body {
 	font-size: 1.2em;
 	color: white;
 }
+/* END OF MINDFULNESS SECTION */
+
+#aboutbody{
+	background-color: #A9C05E
+}
+#meditationbody {
+	background-color: #FD8EC7
+}
+#booksbody
+{
+background-color: #E0D2C1 
+}
+#photographsbody {
+	background-color: #5D9DB6
+}
+
+
+
